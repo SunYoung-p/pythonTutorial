@@ -13,3 +13,10 @@ def FuncPractice_2(num):
 
 def FuncPractice_3(n, m):
     print(n, "과 ", m, f" 의 평균값 : {(n+m)/2 : .1f}")
+
+def adder3(num):
+    return num * -1
+
+def avger3(n1, n2):
+    n = n1 + n2
+    return f"{n/2 : .2f}"

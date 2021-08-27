@@ -19,4 +19,6 @@ if __name__ == '__main__':
     fc.FuncPractice_1("PSY")
     fc.FuncPractice_2(-50)
     fc.FuncPractice_3(3, 4)
+    print("-4 의 반대 부호는 ", fc.adder3(-4), " 입니다.")
+    print("3과 5의 평균 값은 ", fc.avger3(3, 5), " 입니다.")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
