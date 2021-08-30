@@ -56,3 +56,34 @@ def func_for4():
     n = 7
     for i in [9,8,7,6,5,4,3,2,1]:
         print(n, " * ", i, " = ", n * i)
+
+def func_for2_1():
+    for i in range(5):
+        print("안녕하세요")
+
+def func_for2_2():
+    n = 7
+    print("* 7단 (with range) *")
+    for i in range(1,10):
+        print(n, " * ", i, " = ", n*i)
+
+def func_for2_3(n1, n2):
+    i = 1
+    for j in range(n2):
+        i *= n1
+    return i
+
+def greet():
+    cnt = eval(input("인사를 몇 번 할까요? "))
+
+    for i in range(cnt):
+        print("반갑습니다.")
+
+def int_div(n1,n2): # n1 나누기 n2 의 몫과 나머지는?
+    print("몫 : ", n1//n2, "\n나머지 : ", n1%n2)
+
+def bet_num(n1,n2): # n1과 n2 사이의 수 의 합은?
+    sum = 0
+    for i in range(n1+1, n2):
+        sum += i
+    print(sum)
