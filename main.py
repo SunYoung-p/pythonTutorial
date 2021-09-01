@@ -6,6 +6,8 @@
 from Variable import varsFunc
 import Func as fc
 import Func2 as fc2
+import Func3_if_elif as fc3
+import Func4_For_White as fc4
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -52,10 +54,29 @@ if __name__ == '__main__':
     fc2.show_reverse([1,2,3,4,5])
     print("")
     fc2.show_reverse("Hello World")
-     """
+     
     fc2.apend_pop_list2()
     fc2.clear_list()
     fc2.for_list_01()
     fc2.for_list_02()
     fc2.slice_li()
+   
+    fc2.str_func_2()
+    st = "070609-2011xxx"
+    print(fc2.birth_only(st))
+    st = "090716-1012xxx"
+    print(fc2.birth_only(st))
+     """
+    fc3.is_zero(-0.1)
+    fc3.is_one(2)
+    fc3.what_size(12)
+    fc3.what_multi(5)
+    fc3.what_size_two(20)
+    #fc3.check_phone_number()
+   # fc3.get_multiple_val(input("정수를 입력하세요 : "))
+    fc4.zero_to_nine()
+    print("")
+    fc4.nine_to_zero()
+    print("")
+    fc4.what_number()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
