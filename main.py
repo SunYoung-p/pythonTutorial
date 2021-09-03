@@ -79,4 +79,8 @@ if __name__ == '__main__':
     fc4.nine_to_zero()
     print("")
     fc4.what_number()
+    fc4.get_mini_mul()
+    fc4.get_mini_div()
+    fc4.print_seven()
+    fc4.exam_while()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
