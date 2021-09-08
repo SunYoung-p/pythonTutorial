@@ -57,3 +57,55 @@ def exam_while():
             print(n, end=' ')
 
 
+def double_for():
+    for i in range(2, 10):
+        for j in range(1, 10):
+            print(i * j, end=' ')
+        print('')
+
+
+def to_list(li):
+    val = []
+    for i in li:
+        val.append(i)
+    return val
+
+
+def print_dalpang():
+    cnt = 5
+    arr = list(range(cnt))
+
+    for i in range(cnt):
+        arr[i] = list(range(cnt))
+
+    print(arr)
+    cnt_re = int(cnt / 2 + 1)
+    for inner_cnt in range(cnt_re):
+        # print(inner_cnt) -> 0,1,2
+        i = inner_cnt
+        j = inner_cnt
+        k = 0
+        while i <= cnt:
+            arr[inner_cnt][i] = 100
+            i += 1
+
+    print(' ')
+
+
+def range_exam_1():
+    for i in range(9, 0, -1):
+        print(7 * i, end=' ')
+
+
+def range_exam_2():
+    print(tuple(range(1, 101)) + tuple(range(99, 0, -1)))
+
+
+def def_exam():
+    for i in range(3):
+        print(i + 1, i + 2, i + 3, sep=', ')  # 1,2,3 과 같이 출력
+
+
+def call_by_obj(li):
+    for i in range(len(li)):
+        li[i] += 1  # i = i+1 로 하면 origin list 값이 바뀌지 않는다.  li[idx] 로 직접 참조 필요
